@@ -1,0 +1,123 @@
+{
+  "categorias": [
+    {
+      "titulo": "Evangelho da Graça",
+      "link": "",
+      "cor": "#6BD1FF",
+      "link_extra": {
+        "text": "",
+        "url": ""
+      },
+      "videos": [
+        {
+          "titulo": "Só 3 desejos. E agora?",
+          "url": "https://www.youtube.com/watch?v=ONYEwHXVqic",
+          "descricao": "Mensagem sobre fé com Victor Azevedo"
+        },
+        {
+          "titulo": "Temos a semente de Deus - Victor Azevedo",
+          "url": "https://www.youtube.com/watch?v=50xvr8yU6No",
+          "descricao": "Mensagem sobre fé com Victor Azevedo"
+        },
+        {
+          "titulo": "NOVA | Protegido, Revestido e Capacitado de Forma Sobrenatural | Jorge Monteiro",
+          "url": "https://www.youtube.com/watch?v=_F37Ab9aCEc",
+          "descricao": "Mensagem sobre fé com Jorge Monteiro"
+        },
+        {
+          "titulo": "NOVA | Jesus, socorro bem presente | Mauricio Fragale",
+          "url": "https://www.youtube.com/watch?v=S9u8m2-dzU4&t=233s",
+          "descricao":"Mensagem sobre fé com Maurício Fragale"
+        },
+        {
+          "titulo": "Mantenha o foco na Verdade | Pr. Helio Peixoto",
+          "url": "https://www.youtube.com/watch?v=iDlmSQctwfk",
+          "descricao":"Mensagem sobre fé com Hélio Peixoto"
+        },
+        {
+          "titulo": "Deus te criou com o propósito de te amar",
+          "url": "https://www.youtube.com/watch?v=MZwb7h1rnrE",
+          "descricao": "Mensagem sobre fé com Hélio Peixoto"
+        }
+      ]
+    },
+    {
+      "titulo": "Filmes (trailers)",
+      "cor": "orange",
+      "videos": [
+        {
+          "titulo": "Ratatouille",
+          "url": "https://www.youtube.com/watch?v=0yWEA_WlQVk"
+        },
+        {
+          "titulo": "O Resgate do Soldado Ryan",
+          "url": "https://www.youtube.com/watch?v=WdHJ_nLRjIA"
+        },
+        {
+          "titulo": "Marley e Eu",
+          "url": "https://www.youtube.com/watch?v=0UMMGNxg1Lg"
+        },
+        {
+          "titulo": "Minha mãe é uma peça 2",
+          "url": "https://www.youtube.com/watch?v=9hyLbCV0Dxo"
+        },
+        {
+          "titulo": "Bel-Air (trailer fan-made de Um Maluco no Pedaço)",
+          "url": "https://www.youtube.com/watch?v=WAfJpyBgcgA"
+        }
+      ]
+    },
+    {
+      "titulo": "Games",
+      "cor": "red",
+      "link_extra": {
+        "text": "Formação de Jogos na Alura",
+        "url": "https://www.alura.com.br/formacao-jogos-unity"
+      },
+      "videos": [
+        {
+          "titulo": "Final Fantasy 7",
+          "url": "https://www.youtube.com/watch?v=I_ATSCTnUD8"
+        },
+        {
+          "titulo": "Bioshock Remastered Collection",
+          "url": "https://www.youtube.com/watch?v=QtwY33n5WIo"
+        },
+        {
+          "titulo": "God of War 4",
+          "url": "https://www.youtube.com/watch?v=FyIwEFXOcaE"
+        },
+        {
+          "titulo": "The Last of Us Parte 2",
+          "url": "https://www.youtube.com/watch?v=vhII1qlcZ4E"
+        },
+        {
+          "titulo": "Trails in the Sky",
+          "url": "https://www.youtube.com/watch?v=nth9hrrORUs"
+        }
+      ]
+    },
+    {
+      "titulo": "Séries",
+      "cor": "#6b5be2",
+      "videos": [
+        {
+          "titulo": "Breaking Bad",
+          "url": "https://www.youtube.com/watch?v=Pev38s3xPgM"
+        },
+        {
+          "titulo": "Better Call Saul",
+          "url": "https://www.youtube.com/watch?v=HN4oydykJFc"
+        },
+        {
+          "titulo": "Brooklyn 99",
+          "url": "https://www.youtube.com/watch?v=sEOuJ4z5aTc"
+        },
+        {
+          "titulo": "The Fresh Prince of Bel-Air",
+          "url": "https://www.youtube.com/watch?v=_u6vYpbfCmQ"
+        }
+      ]
+    }
+  ]
+}
