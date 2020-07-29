@@ -1,6 +1,6 @@
 import React from 'react';
 import Slider, { SliderItem } from './components/Slider';
-import { VideoCardGroupContainer, VideoCardList, Title, ExtraLink } from './styles';
+import { VideoCardGroupContainer, Title, ExtraLink } from './styles';
 import VideoCard from './components/VideoCard';
 
 function Carousel({
@@ -25,7 +25,7 @@ function Carousel({
           }
         </>
       )}
-      <Slider>
+      <Slider arrowColor={categoryColor}>
         {videos.map((video, index) => {
           if (ignoreFirstVideo && index === 0) {
             return null;

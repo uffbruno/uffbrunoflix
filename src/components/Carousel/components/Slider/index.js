@@ -17,6 +17,7 @@ const Container = styled.ul`
     transform: initial;
     &:before {
       font-size: 30px;
+      color: ${props => props.arrowColor};
     }
   }
   
@@ -38,21 +39,22 @@ export const SliderItem = styled.li`
   }
 `;
 
+const Slider = function(props) {
+  return (
+    <Container arrowColor={props.arrowColor}>
+        <SlickSlider {...{
+          dots: false,
+          infinite: true,
+          speed: 300,
+          centerMode: false,
+          variableWidth: true,
+          adaptiveHeight: true,
+        }}
+        >
+          {props.children}
+        </SlickSlider>
+      </Container>
+  );
+}
 
-const Slider = ({ children }) => (
-  <Container>
-    <SlickSlider {...{
-      dots: false,
-      infinite: false,
-      speed: 300,
-      centerMode: false,
-      variableWidth: true,
-      adaptiveHeight: true,
-    }}
-    >
-      {children}
-    </SlickSlider>
-  </Container>
-);
-
-export default Slider; 
+export default Slider;
