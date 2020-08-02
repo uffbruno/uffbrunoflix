@@ -1,4 +1,4 @@
-import styled from '../../../node_modules/styled-components/dist/styled-components.cjs';
+import styled from '../../../node_modules/styled-components';
 
 const Button = styled.button`
 
