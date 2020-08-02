@@ -1,15 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './pages/Home/App';
-import pagina404 from './pages/notfound';
-import CadastroVideo from './pages/cadastro/video';
 
 import {
   BrowserRouter,
   Switch,
   Route
 } from 'react-router-dom';
+
+import App from './pages/Home/App';
+import pagina404 from './pages/notfound';
+import CadastroVideo from './pages/cadastro/video';
 
 import CadastroCategoria from './pages/cadastro/categoria';
 

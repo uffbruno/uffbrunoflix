@@ -1,0 +1,16 @@
+{
+  "categorias": [
+    {
+      "id": 1,
+      "nome": "Evangelho da Graça",
+      "descricao": "Mensagens do evangelho da graça de Jesus, com Maurício Fragale, Hélio Peixoto, Joseph Prince e mais!",
+      "cor": "#6bd1ff"
+    },
+    {
+      "id": 2,
+      "nome": "Games",
+      "descricao": "Games irados para te levar a mundos variados te permitindo ser o que você quiser!",
+      "cor": "#6bd1ff"
+    }
+  ]  
+}
