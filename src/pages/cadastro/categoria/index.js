@@ -3,6 +3,9 @@ import { Link } from 'react-router-dom';
 import PageDefault from '../../../components/PageDefault';
 import FormField from '../../../components/FormField';
 import Button from '../../../components/Button';
+import Spinner from '../../../components/Spinner';
+
+import Loading from '../../../assets/img/Loading.png';
 
 function CadastroCategoria() {
   const valoresIniciais = {
@@ -27,10 +30,31 @@ function CadastroCategoria() {
       eventInfo.target.value);
   }
 
-  useEffect(() => {
-    const URL = window.location.hostname.includes('localhost')
+  function getUrl() {
+    return window.location.hostname.includes('localhost')
       ? 'http://localhost:8080/categorias'
       : 'https://uffbrunoflix.herokuapp.com/categorias';
+  }
+
+  async function postCategory(url = '', data = {}) {
+    const response = await fetch(url, {
+      method: 'POST',
+      mode: 'cors',
+      cache: 'no-cache',
+      credentials: 'same-origin',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      redirect: 'follow',
+      referrerPolicy: 'no-referrer',
+      body: JSON.stringify(data),
+    });
+
+    return response.json();
+  }
+
+  useEffect(() => {
+    const URL = getUrl();
 
     fetch(URL)
       .then(async (respostaDoServidor) => {
@@ -55,6 +79,18 @@ function CadastroCategoria() {
           ...categorias,
           values,
         ]);
+
+        postCategory(getUrl(), values)
+          .then((data) => (
+            <div className="alert alert-primary" role="alert">
+              Categoria
+              {' '}
+              {data.nome}
+              {' '}
+              cadastrada com sucesso!
+            </div>
+
+          ));
 
         setValues(valoresIniciais);
       }}
@@ -88,11 +124,15 @@ function CadastroCategoria() {
         </Button>
 
         {categorias.length === 0
-        && (
-        <div>
-          Loading...
-        </div>
-        )}
+          && (
+            <div>
+              <p />
+
+              <Spinner>
+                <img src={Loading} alt="Loading..." />
+              </Spinner>
+            </div>
+          )}
 
         <ul>
           {categorias.map((categoria, indice) => (
