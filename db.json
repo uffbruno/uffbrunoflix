@@ -2,45 +2,208 @@
   "categorias": [
     {
       "id": 1,
-      "nome": "Evangelho da Graça",
+      "titulo": "Evangelho da Graça",
       "descricao": "Mensagens do evangelho da graça de Jesus, com Maurício Fragale, Hélio Peixoto, Joseph Prince e mais!",
       "cor": "#6bd1ff"
     },
     {
       "id": 2,
-      "nome": "Games",
-      "descricao": "Games irados para te levar a mundos variados te permitindo ser o que você quiser!",
-      "cor": "#6bd1ff"
+      "titulo": "Filmes (trailers)",
+      "descricao": "Trailers de filmes bacanas!",
+      "cor": "orange"
     },
     {
-      "nome": "Caraca Atreus!",
-      "descricao": "Teste",
+      "titulo": "Games",
+      "descricao": "Videojogos interativos",
       "cor": "#ff0000",
       "id": 3
     },
     {
-      "nome": "Nova categoria cadastrada via POST!",
-      "descricao": "Caraca, não é que funciona mesmo?",
+      "titulo": "Séries",
+      "descricao": "Séries disponíveis na Netflix",
       "cor": "#0000ff",
       "id": 4
     },
     {
-      "nome": "Muito maneiro, gosto de cadastrar!",
-      "descricao": "Esse trem é muito bom depois que funciona né?",
-      "cor": "#ff8000",
+      "descricao": "Apenas um exemplo.",
+      "cor": "#067179",
+      "titulo": "Nova Categoria (ainda sem vídeos)",
       "id": 5
     },
     {
-      "nome": "Mais um cadastro de categoria",
-      "descricao": "Mais um teste",
-      "cor": "#80ff80",
+      "descricao": "testando",
+      "cor": "#e708ca",
+      "titulo": "outra categoria",
       "id": 6
     },
     {
-      "nome": "Teste",
-      "descricao": "Teste",
-      "cor": "#804040",
+      "descricao": "Uma categoria com ID como número",
+      "cor": "",
+      "titulo": "Teste de categoria nova",
       "id": 7
+    }
+  ],
+  "videos": [
+    {
+      "id": 1,
+      "categoriaId": 1,
+      "titulo": "Só 3 desejos. E agora?",
+      "url": "https://www.youtube.com/watch?v=ONYEwHXVqic",
+      "descricao": "Mensagem sobre fé com Victor Azevedo"
+    },
+    {
+      "id": 2,
+      "categoriaId": 1,
+      "titulo": "Temos a semente de Deus - Victor Azevedo",
+      "url": "https://www.youtube.com/watch?v=50xvr8yU6No",
+      "descricao": "Mensagem sobre fé com Victor Azevedo"
+    },
+    {
+      "id": 3,
+      "categoriaId": 1,
+      "titulo": "NOVA | Protegido, Revestido e Capacitado de Forma Sobrenatural | Jorge Monteiro",
+      "url": "https://www.youtube.com/watch?v=_F37Ab9aCEc",
+      "descricao": "Mensagem sobre fé com Jorge Monteiro"
+    },
+    {
+      "id": 4,
+      "categoriaId": 1,
+      "titulo": "NOVA | Jesus, socorro bem presente | Mauricio Fragale",
+      "url": "https://www.youtube.com/watch?v=S9u8m2-dzU4&t=233s",
+      "descricao": "Mensagem sobre fé com Maurício Fragale"
+    },
+    {
+      "id": 5,
+      "categoriaId": 1,
+      "titulo": "Mantenha o foco na Verdade | Pr. Helio Peixoto",
+      "url": "https://www.youtube.com/watch?v=iDlmSQctwfk",
+      "descricao": "Mensagem sobre fé com Hélio Peixoto"
+    },
+    {
+      "id": 6,
+      "categoriaId": 1,
+      "titulo": "Deus te criou com o propósito de te amar",
+      "url": "https://www.youtube.com/watch?v=MZwb7h1rnrE",
+      "descricao": "Mensagem sobre fé com Hélio Peixoto"
+    },
+    {
+      "id": 1,
+      "categoriaId": 2,
+      "titulo": "Ratatouille",
+      "url": "https://www.youtube.com/watch?v=0yWEA_WlQVk"
+    },
+    {
+      "id": 2,
+      "categoriaId": 2,
+      "titulo": "O Resgate do Soldado Ryan",
+      "url": "https://www.youtube.com/watch?v=WdHJ_nLRjIA"
+    },
+    {
+      "id": 3,
+      "categoriaId": 2,
+      "titulo": "Marley e Eu",
+      "url": "https://www.youtube.com/watch?v=0UMMGNxg1Lg"
+    },
+    {
+      "id": 4,
+      "categoriaId": 2,
+      "titulo": "Minha mãe é uma peça 2",
+      "url": "https://www.youtube.com/watch?v=9hyLbCV0Dxo"
+    },
+    {
+      "id": 5,
+      "categoriaId": 2,
+      "titulo": "Bel-Air (trailer fan-made de Um Maluco no Pedaço)",
+      "url": "https://www.youtube.com/watch?v=WAfJpyBgcgA"
+    },
+    {
+      "id": 1,
+      "categoriaId": 3,
+      "titulo": "Final Fantasy 7",
+      "url": "https://www.youtube.com/watch?v=I_ATSCTnUD8"
+    },
+    {
+      "id": 2,
+      "categoriaId": 3,
+      "titulo": "Bioshock Remastered Collection",
+      "url": "https://www.youtube.com/watch?v=QtwY33n5WIo"
+    },
+    {
+      "id": 3,
+      "categoriaId": 3,
+      "titulo": "God of War 4",
+      "url": "https://www.youtube.com/watch?v=FyIwEFXOcaE"
+    },
+    {
+      "id": 4,
+      "categoriaId": 3,
+      "titulo": "The Last of Us Parte 2",
+      "url": "https://www.youtube.com/watch?v=vhII1qlcZ4E"
+    },
+    {
+      "id": 5,
+      "categoriaId": 3,
+      "titulo": "Trails in the Sky",
+      "url": "https://www.youtube.com/watch?v=nth9hrrORUs"
+    },
+    {
+      "id": 1,
+      "categoriaId": 4,
+      "titulo": "Breaking Bad",
+      "url": "https://www.youtube.com/watch?v=Pev38s3xPgM"
+    },
+    {
+      "id": 2,
+      "categoriaId": 4,
+      "titulo": "Better Call Saul",
+      "url": "https://www.youtube.com/watch?v=HN4oydykJFc"
+    },
+    {
+      "id": 3,
+      "categoriaId": 4,
+      "titulo": "Brooklyn 99",
+      "url": "https://www.youtube.com/watch?v=sEOuJ4z5aTc"
+    },
+    {
+      "id": 4,
+      "categoriaId": 4,
+      "titulo": "The Fresh Prince of Bel-Air",
+      "url": "https://www.youtube.com/watch?v=_u6vYpbfCmQ"
+    },
+    {
+      "titulo": "Teste",
+      "url": "https://www.youtube.com/watch?v=JxGuo2k1RoE",
+      "descricao": "Teste",
+      "categoriaId": "5",
+      "id": 7
+    },
+    {
+      "titulo": "JOSEPH PRINCE : Deus é socorro presente em tempos difíceis",
+      "url": "https://www.youtube.com/watch?v=C_vgdmHvpUc",
+      "descricao": "JOSEPH PRINCE : Deus é socorro presente em tempos difíceis\n",
+      "categoriaId": 1,
+      "id": 8
+    },
+    {
+      "titulo": "AFTER 2 Trailer Brasileiro LEGENDADO (2020)",
+      "url": "https://www.youtube.com/watch?v=9MRknYmXFBY",
+      "descricao": "Um filme aí que não conheço.",
+      "categoriaId": 2,
+      "id": 9
+    },
+    {
+      "titulo": "Fall Guys Trailer",
+      "url": "https://www.youtube.com/watch?v=FcITAzKW3fY",
+      "descricao": "Fall Guys é maneiro!",
+      "categoriaId": 3,
+      "id": 10
+    },
+    {
+      "titulo": "Fall Guys",
+      "url": "https://www.youtube.com/watch?v=FcITAzKW3fY",
+      "descricao": "Fall Guys é maneiro!",
+      "categoriaId": 3,
+      "id": 11
     }
   ]
 }
