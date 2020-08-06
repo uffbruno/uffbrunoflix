@@ -11,6 +11,7 @@ function Carousel({
   const categoryColor = category.cor;
   const categoryExtraLink = category.link_extra;
   const { videos } = category;
+
   return (
     <VideoCardGroupContainer>
       {categoryTitle && (
@@ -26,6 +27,11 @@ function Carousel({
             )}
         </>
       )}
+
+      {videos.length === 0 && <div>Não há videos cadastrados nesta categoria</div>}
+
+      {videos.length > 0
+      && (
       <Slider arrowColor={categoryColor}>
         {videos.map((video, index) => {
           if (ignoreFirstVideo && index === 0) {
@@ -43,6 +49,7 @@ function Carousel({
           );
         })}
       </Slider>
+      )}
     </VideoCardGroupContainer>
   );
 }
